@@ -10,6 +10,7 @@
 | Tent: Fully Test-time Adaptation by Entropy Minimization | ICLR 2021 | 🔗 [arXiv](https://arxiv.org/abs/2006.10726) | 💻 [GitHub](https://github.com/DequanWang/tent) |
 | T3A: Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization | NeurIPS 2021 | 🔗 [OpenReview](https://openreview.net/forum?id=e_yvNqkJKAW) | 💻 [GitHub](https://github.com/matsuolab/T3A) |
 | DLTTA: Dynamic Learning Rate for Test-time Adaptation on Cross-domain Medical Images | IEEE TMI 2022 | 🔗 [arXiv](https://arxiv.org/abs/2205.13723) | 💻 [GitHub](https://github.com/med-air/DLTTA) |
+| A3-TTA: Adaptive Anchor Alignment Test-Time Adaptation for Image Segmentation | TIP 2025 | 🔗 [arXiv](https://arxiv.org/abs/2602.03292) | 💻 [GitHub](https://github.com/HiLab-git/A3-TTA) |
 
 
 
