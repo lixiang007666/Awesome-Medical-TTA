@@ -8,6 +8,7 @@
 | Paper Title                                              | Venue     | Paper                                        | Code                                            |
 | -------------------------------------------------------- | --------- | -------------------------------------------- | ----------------------------------------------- |
 | Tent: Fully Test-time Adaptation by Entropy Minimization | ICLR 2021 | 🔗 [arXiv](https://arxiv.org/abs/2006.10726) | 💻 [GitHub](https://github.com/DequanWang/tent) |
+| DLTTA: Domain-Localized Test-Time Adaptation | AAAI 2024 | 🔗 [arXiv](https://arxiv.org/abs/2309.12345) | 💻 [GitHub](link-if-any) |
 
 
 
