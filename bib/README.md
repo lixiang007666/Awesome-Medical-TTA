@@ -8,6 +8,7 @@ Suggested structure:
 - `ctta.bib`: CTTA papers
 - `misc.bib`: related references, benchmarks, and surveys
 
-Current example:
+Current contents:
 
-- `tta.bib`: `dong2025certaintta` (CertainTTA, Information Fusion 2025)
+- `tta.bib`: current TTA papers from `docs/papers/tta.md`
+- `ctta.bib`: current CTTA papers from `docs/papers/ctta.md`
