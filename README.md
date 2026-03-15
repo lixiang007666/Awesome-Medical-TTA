@@ -46,6 +46,7 @@ This is a short homepage preview. The full tables are maintained in `docs/papers
 
 - Each paper must have exactly one `Core Method`.
 - Use one consistent method label per paper across the repository.
+- Use venue publication year as `Year` whenever available (journal/conference year first).
 
 ## Core Method Classes (Shared by TTA and CTTA)
 
