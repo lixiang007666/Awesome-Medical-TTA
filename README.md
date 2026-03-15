@@ -4,7 +4,10 @@ A structured repository for medical image Test-Time Adaptation (TTA/CTTA) papers
 
 ## Quick List (Preview)
 
-This is a short homepage preview. The full tables are maintained in `docs/papers/`.
+This section is only a homepage preview (not the full list).
+For full paper lists, please use:
+- `docs/papers/tta.md`
+- `docs/papers/ctta.md`
 
 | Year | Paper | Track | Core Method | Link |
 | --- | --- | --- | --- | --- |
@@ -37,7 +40,9 @@ This is a short homepage preview. The full tables are maintained in `docs/papers
 ├── notes/
 │   └── paper_template.md
 ├── bib/
-│   └── README.md
+│   ├── README.md
+│   ├── tta.bib
+│   └── ctta.bib
 └── assets/
     └── README.md
 ```
