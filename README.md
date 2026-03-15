@@ -1,26 +1,47 @@
 # Awesome-Medical-TTA
-🚑 A Comprehensive Collection of Test-Time Adaptation Methods for Robust Medical AI under Domain Shift
 
+A structured repository for medical image Test-Time Adaptation (TTA/CTTA) papers.
 
+## Overview
 
-## TTA (Test-Time Adaptation)
+- [`docs/taxonomy.md`](docs/taxonomy.md): Primary/Secondary classification rules
+- [`docs/papers/tta.md`](docs/papers/tta.md): TTA paper table
+- [`docs/papers/ctta.md`](docs/papers/ctta.md): CTTA paper table
+- [`notes/paper_template.md`](notes/paper_template.md): per-paper note template
+- [`bib/README.md`](bib/README.md): bibliography storage conventions
+- [`assets/README.md`](assets/README.md): figures/tables asset conventions
 
-| Paper Title                                              | Venue     | Paper                                        | Code                                            |
-| -------------------------------------------------------- | --------- | -------------------------------------------- | ----------------------------------------------- |
-| Tent: Fully Test-time Adaptation by Entropy Minimization | ICLR 2021 | 🔗 [arXiv](https://arxiv.org/abs/2006.10726) | 💻 [GitHub](https://github.com/DequanWang/tent) |
-| T3A: Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization | NeurIPS 2021 | 🔗 [OpenReview](https://openreview.net/forum?id=e_yvNqkJKAW) | 💻 [GitHub](https://github.com/matsuolab/T3A) |
-| DLTTA: Dynamic Learning Rate for Test-time Adaptation on Cross-domain Medical Images | IEEE TMI 2022 | 🔗 [arXiv](https://arxiv.org/abs/2205.13723) | 💻 [GitHub](https://github.com/med-air/DLTTA) |
-| A3-TTA: Adaptive Anchor Alignment Test-Time Adaptation for Image Segmentation | TIP 2025 | 🔗 [arXiv](https://arxiv.org/abs/2602.03292) | 💻 [GitHub](https://github.com/HiLab-git/A3-TTA) |
-|PASS: Test-Time Prompting to Adapt Styles and Semantic Shapes in Medical Image Segmentation | IEEE TMI  2025  | 🔗 [arXiv]（https://arxiv.org/abs/2410.01573） | 💻 [GitHub](https://github.com/EndoluminalSurgicalVision-IMR/PASS.git) |
-| Free on the fly: Enhancing flexibility in test-time adaptation with online em| CVPR 2025 | 🔗 [arXiv](https://arxiv.org/abs/2507.06973) | 💻 [GitHub](not given) |
-| CertainTTA: Estimating uncertainty for test-time adaptation on medical image segmentation| Information Fusion 2025 | 🔗 [PDF](https://doi.org/10.1016/j.inffus.2025.103300) | 💻 [GitHub](not given) |
-## CTTA (Continual Test-Time Adaptation)
+## Classification Rules (Summary)
 
-| Paper Title                                                                                                  | Venue     | Paper                                                                                                                          | Code                                              |
-| ------------------------------------------------------------------------------------------------------------ | --------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------- |
-| Continual Test-Time Domain Adaptation (CoTTA)                                                                | CVPR 2022 | 🔗 [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.pdf) | 💻 [GitHub](https://github.com/qinenergy/cotta)   |
-| Each Test Image Deserves A Specific Prompt: Continual Test-Time Adaptation for 2D Medical Image Segmentation | CVPR 2024 | 🔗 [arXiv](https://arxiv.org/pdf/2311.18363)                                                                                   | 💻 [GitHub](https://github.com/Chen-Ziyang/VPTTA) |
-| TopoTTA: Topology-Enhanced Test-Time Adaptation for Tubular Structure Segmentation | ICCV 2025 | 🔗 [arXiv](https://arxiv.org/pdf/2508.00442) | 💻 [GitHub](not given) |
-| SicTTA: Single image continual test time adaptation for medical image segmentation | MIA 2025 | 🔗 [PDF](https://www.sciencedirect.com/science/article/pii/S1361841525004050) | 💻 [GitHub](https://github.com/HiLab-git/SicTTA) |
-| SAM-aware Test-time Adaptation for Universal Medical Image Segmentation | Arxiv 2025 | 🔗 [PDF](https://arxiv.org/pdf/2506.05221) | 💻 [GitHub](not given) |
-| Domain consistency learning for continual test-time adaptation in image semantic segmentation | Pattern Recognition 2025 | 🔗 [PDF](https://doi.org/10.1016/j.patcog.2025.111585) | 💻 [GitHub](not given) |
+- Each paper must have exactly one `Primary Class`.
+- Additional method attributes go into `Secondary Tags`.
+- A class is kept independent only when paper count >= 2.
+- Otherwise, place papers in `Emerging/Other` temporarily and split later.
+
+## Primary Classes (Shared by TTA and CTTA)
+
+1. Entropy/Confidence-Driven
+2. Self-Training/Pseudo-Label
+3. Prompt/PEFT Adaptation
+4. Memory/Continual Stabilization
+5. Prior-Constrained Adaptation
+6. Augmentation/Invariance Consistency
+7. Emerging/Other
+
+## Conflict Resolution (How to Choose Primary Class)
+
+1. Choose by the core update mechanism (what is actually optimized/updated at test time).
+2. If still ambiguous, follow the paper's claimed core contribution (title/abstract/method).
+3. If still tied, use this priority:
+   `Prompt/PEFT > Memory/Continual > Self-Training/Pseudo-Label > Entropy/Confidence > Prior-Constrained > Augmentation/Invariance > Emerging/Other`.
+
+## Contribution Template
+
+Please add papers in [`notes/paper_template.md`](notes/paper_template.md), then register them in `docs/papers/tta.md` or `docs/papers/ctta.md` with:
+
+`Year | Paper | Venue | Primary Class | Secondary Tags | Setting | Modality | Task | Dataset/Benchmark | Link | Code | Notes`
+
+## Current Paper Lists
+
+- TTA papers: [`docs/papers/tta.md`](docs/papers/tta.md)
+- CTTA papers: [`docs/papers/ctta.md`](docs/papers/ctta.md)
