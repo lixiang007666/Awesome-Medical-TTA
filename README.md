@@ -28,12 +28,13 @@ A structured repository for medical image Test-Time Adaptation (TTA/CTTA) papers
 6. Augmentation/Invariance Consistency
 7. Emerging/Other
 
-## Conflict Resolution (How to Choose Primary Class)
+## Classification Rules (Summary)
 
-1. Choose by the core update mechanism (what is actually optimized/updated at test time).
-2. If still ambiguous, follow the paper's claimed core contribution (title/abstract/method).
-3. If still tied, use this priority:
-   `Prompt/PEFT > Memory/Continual > Self-Training/Pseudo-Label > Entropy/Confidence > Prior-Constrained > Augmentation/Invariance > Emerging/Other`.
+- Each paper must have exactly one **Primary Class**.
+- Additional method characteristics should be recorded as **Secondary Tags**.
+- A category may be kept independent when multiple papers fall into the same strategy.
+- Otherwise, papers can be temporarily grouped under **Emerging/Other** and split later as the field evolves.
+
 
 ## Contribution Template
 
