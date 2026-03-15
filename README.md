@@ -45,8 +45,7 @@ This is a short homepage preview. The full tables are maintained in `docs/papers
 ## Classification Rules (Summary)
 
 - Each paper must have exactly one `Core Method`.
-- A class is kept independent only when paper count >= 2.
-- Otherwise, place papers in `Emerging/Other` temporarily and split later.
+- Use one consistent method label per paper across the repository.
 
 ## Core Method Classes (Shared by TTA and CTTA)
 
@@ -60,10 +59,8 @@ This is a short homepage preview. The full tables are maintained in `docs/papers
 
 ## Conflict Resolution (How to Choose Core Method)
 
-1. Choose by the core update mechanism (what is actually optimized/updated at test time).
-2. If still ambiguous, follow the paper's claimed core contribution (title/abstract/method).
-3. If still tied, use this priority:
-   `Prompt/PEFT > Memory/Continual > Self-Training/Pseudo-Label > Entropy/Confidence > Prior-Constrained > Augmentation/Invariance > Emerging/Other`.
+- Pick the method that best represents the paper's main contribution.
+- If multiple strategies are used, choose the one that drives the core test-time update.
 
 
 ## Contribution Template
@@ -74,10 +71,7 @@ Please add papers in [`notes/paper_template.md`](notes/paper_template.md), then 
 
 ## How to Maintain
 
-1. Add or update one paper note using `notes/paper_template.md`.
-2. Assign exactly one `Core Method` using `docs/taxonomy.md`.
-3. Add the paper row to `docs/papers/tta.md` or `docs/papers/ctta.md`.
-4. If a new class has fewer than 2 papers, keep it in `Emerging/Other`.
+Add paper note -> assign one `Core Method` -> add one row to `docs/papers/tta.md` or `docs/papers/ctta.md`.
 
 ## Current Paper Lists
 
