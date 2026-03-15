@@ -15,13 +15,9 @@
 
 - What is the key adaptation mechanism?
 
-## Primary Class
+## Core Method
 
 - Choose exactly one from `docs/taxonomy.md`.
-
-## Secondary Tags
-
-- tag1, tag2, tag3
 
 ## Strengths
 
@@ -34,7 +30,6 @@
 ## Repro Notes
 
 - Data:
-- Setting (source-free/online/continual):
 - Key hyperparameters:
 - Compute cost:
 - Pitfalls:

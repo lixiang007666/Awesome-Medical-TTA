@@ -1,8 +1,8 @@
 # Taxonomy for Medical TTA/CTTA
 
-This repository uses a one-paper-one-primary-class rule for stable statistics and review writing.
+This repository uses a one-paper-one-core-method rule for stable statistics and review writing.
 
-## Primary Classes
+## Core Method Classes
 
 - Entropy/Confidence-Driven
 - Self-Training/Pseudo-Label
@@ -12,28 +12,9 @@ This repository uses a one-paper-one-primary-class rule for stable statistics an
 - Augmentation/Invariance Consistency
 - Emerging/Other
 
-## Secondary Tags (Examples)
-
-- uncertainty-aware
-- prototype-based
-- consistency-regularization
-- topology-prior
-- multimodal-prior
-- sam-prior
-- ema-teacher
-- bn-only
-- online
-- single-image
-- source-free
-
-## Primary vs Secondary
-
-- `Primary Class`: the dominant adaptation mechanism; exactly one.
-- `Secondary Tags`: auxiliary methods, assumptions, or implementation choices; multiple allowed.
-
 ## Conflict Resolution Rules
 
-1. Select the primary class by the core update/optimization mechanism at test time.
+1. Select the core method by the dominant update/optimization mechanism at test time.
 2. If ambiguous, follow the paper's core claim in title, abstract, and method.
 3. If still ambiguous, apply this tie-breaker priority:
    `Prompt/PEFT > Memory/Continual > Self-Training/Pseudo-Label > Entropy/Confidence > Prior-Constrained > Augmentation/Invariance > Emerging/Other`.
