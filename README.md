@@ -9,14 +9,96 @@ Full tables are maintained in:
 - `docs/papers/tta.md`
 - `docs/papers/ctta.md`
 
-| Year | Paper | Track | Venue | Core Method | Secondary Method | Task | Link | Code | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2021 | Tent: Fully Test-time Adaptation by Entropy Minimization | TTA | ICLR | Entropy/Confidence-Driven | N/A | Classification | [arXiv](https://arxiv.org/abs/2006.10726) | [GitHub](https://github.com/DequanWang/tent) | Canonical entropy minimization baseline |
-| 2021 | T3A: Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization | TTA | NeurIPS | Entropy/Confidence-Driven | Memory/Continual Stabilization | Classification | [OpenReview](https://openreview.net/forum?id=e_yvNqkJKAW) | [GitHub](https://github.com/matsuolab/T3A) | Classifier adjustment at test time |
-| 2022 | DLTTA: Dynamic Learning Rate for Test-time Adaptation on Cross-domain Medical Images | TTA | IEEE TMI | Entropy/Confidence-Driven | N/A | Segmentation | [arXiv](https://arxiv.org/abs/2205.13723) | [GitHub](https://github.com/med-air/DLTTA) | Medical-focused dynamic adaptation |
-| 2025 | PASS: Test-Time Prompting to Adapt Styles and Semantic Shapes in Medical Image Segmentation | TTA | IEEE TMI | Prompt/PEFT Adaptation | Prior-Constrained Adaptation | Segmentation | [arXiv](https://arxiv.org/abs/2410.01573) | [GitHub](https://github.com/EndoluminalSurgicalVision-IMR/PASS.git) | Prompt-based segmentation adaptation |
-| 2022 | Continual Test-Time Domain Adaptation (CoTTA) | CTTA | CVPR | Memory/Continual Stabilization | Augmentation/Invariance Consistency | Classification | [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.pdf) | [GitHub](https://github.com/qinenergy/cotta) | Representative CTTA baseline |
-| 2024 | Each Test Image Deserves A Specific Prompt: Continual Test-Time Adaptation for 2D Medical Image Segmentation | CTTA | CVPR | Prompt/PEFT Adaptation | Memory/Continual Stabilization | Segmentation | [arXiv](https://arxiv.org/pdf/2311.18363) | [GitHub](https://github.com/Chen-Ziyang/VPTTA) | CTTA with test-image prompt |
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th style="width:42%;">Paper</th>
+      <th>Track</th>
+      <th>Venue</th>
+      <th>Core Method</th>
+      <th>Secondary Method</th>
+      <th>Task</th>
+      <th>Link</th>
+      <th>Code</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2021</td>
+      <td>Tent: Fully Test-time Adaptation by Entropy Minimization</td>
+      <td>TTA</td>
+      <td>ICLR</td>
+      <td>Entropy/Confidence-Driven</td>
+      <td>N/A</td>
+      <td>Classification</td>
+      <td><a href="https://arxiv.org/abs/2006.10726">arXiv</a></td>
+      <td><a href="https://github.com/DequanWang/tent">GitHub</a></td>
+      <td>Canonical entropy minimization baseline</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>T3A: Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization</td>
+      <td>TTA</td>
+      <td>NeurIPS</td>
+      <td>Entropy/Confidence-Driven</td>
+      <td>Memory/Continual Stabilization</td>
+      <td>Classification</td>
+      <td><a href="https://openreview.net/forum?id=e_yvNqkJKAW">OpenReview</a></td>
+      <td><a href="https://github.com/matsuolab/T3A">GitHub</a></td>
+      <td>Classifier adjustment at test time</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>DLTTA: Dynamic Learning Rate for Test-time Adaptation on Cross-domain Medical Images</td>
+      <td>TTA</td>
+      <td>IEEE TMI</td>
+      <td>Entropy/Confidence-Driven</td>
+      <td>N/A</td>
+      <td>Segmentation</td>
+      <td><a href="https://arxiv.org/abs/2205.13723">arXiv</a></td>
+      <td><a href="https://github.com/med-air/DLTTA">GitHub</a></td>
+      <td>Medical-focused dynamic adaptation</td>
+    </tr>
+    <tr>
+      <td>2025</td>
+      <td>PASS: Test-Time Prompting to Adapt Styles and Semantic Shapes in Medical Image Segmentation</td>
+      <td>TTA</td>
+      <td>IEEE TMI</td>
+      <td>Prompt/PEFT Adaptation</td>
+      <td>Prior-Constrained Adaptation</td>
+      <td>Segmentation</td>
+      <td><a href="https://arxiv.org/abs/2410.01573">arXiv</a></td>
+      <td><a href="https://github.com/EndoluminalSurgicalVision-IMR/PASS.git">GitHub</a></td>
+      <td>Prompt-based segmentation adaptation</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>Continual Test-Time Domain Adaptation (CoTTA)</td>
+      <td>CTTA</td>
+      <td>CVPR</td>
+      <td>Memory/Continual Stabilization</td>
+      <td>Augmentation/Invariance Consistency</td>
+      <td>Classification</td>
+      <td><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.pdf">PDF</a></td>
+      <td><a href="https://github.com/qinenergy/cotta">GitHub</a></td>
+      <td>Representative CTTA baseline</td>
+    </tr>
+    <tr>
+      <td>2024</td>
+      <td>Each Test Image Deserves A Specific Prompt: Continual Test-Time Adaptation for 2D Medical Image Segmentation</td>
+      <td>CTTA</td>
+      <td>CVPR</td>
+      <td>Prompt/PEFT Adaptation</td>
+      <td>Memory/Continual Stabilization</td>
+      <td>Segmentation</td>
+      <td><a href="https://arxiv.org/pdf/2311.18363">arXiv</a></td>
+      <td><a href="https://github.com/Chen-Ziyang/VPTTA">GitHub</a></td>
+      <td>CTTA with test-image prompt</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Overview
 
