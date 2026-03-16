@@ -8,6 +8,7 @@ This section only shows part of the list as preview.
 Full tables are maintained in:
 - `docs/papers/tta.md`
 - `docs/papers/ctta.md`
+Note: the preview is manually curated and may lag behind full tables.
 
 <table>
   <thead>

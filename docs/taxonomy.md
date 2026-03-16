@@ -17,6 +17,7 @@ This repository uses a one-paper-one-core-method rule with an optional secondary
 - `Secondary Method` is optional and can contain at most one label.
 - Use the same class set as `Core Method`, or set it to `N/A`.
 - `Secondary Method` must not duplicate `Core Method`.
+- If `Secondary Method` is used, add a short reason in `Notes` (one sentence).
 
 ## Conflict Resolution Rules
 
