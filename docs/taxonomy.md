@@ -15,11 +15,11 @@ This repository uses a one-paper-one-core-method rule with an optional secondary
 ## Secondary Method Rule
 
 - `Secondary Method` is optional and can contain at most one label.
-- Use the same class set as `Core Method`, or set it to `NA`.
+- Use the same class set as `Core Method`, or set it to `N/A`.
 - `Secondary Method` must not duplicate `Core Method`.
 
 ## Conflict Resolution Rules
 
 1. Select the core method by the dominant update/optimization mechanism at test time.
 2. If ambiguous, follow the paper's core claim in title, abstract, and method.
-3. Optionally add one `Secondary Method` for the most important auxiliary strategy; otherwise use `NA`.
+3. Optionally add one `Secondary Method` for the most important auxiliary strategy; otherwise use `N/A`.

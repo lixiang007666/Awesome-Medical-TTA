@@ -11,9 +11,9 @@ For full paper lists, please use:
 
 | Year | Paper | Track | Core Method | Secondary Method | Link |
 | --- | --- | --- | --- | --- | --- |
-| 2021 | Tent: Fully Test-time Adaptation by Entropy Minimization | TTA | Entropy/Confidence-Driven | NA | [arXiv](https://arxiv.org/abs/2006.10726) |
+| 2021 | Tent: Fully Test-time Adaptation by Entropy Minimization | TTA | Entropy/Confidence-Driven | N/A | [arXiv](https://arxiv.org/abs/2006.10726) |
 | 2021 | T3A: Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization | TTA | Entropy/Confidence-Driven | Memory/Continual Stabilization | [OpenReview](https://openreview.net/forum?id=e_yvNqkJKAW) |
-| 2022 | DLTTA: Dynamic Learning Rate for Test-time Adaptation on Cross-domain Medical Images | TTA | Entropy/Confidence-Driven | NA | [arXiv](https://arxiv.org/abs/2205.13723) |
+| 2022 | DLTTA: Dynamic Learning Rate for Test-time Adaptation on Cross-domain Medical Images | TTA | Entropy/Confidence-Driven | N/A | [arXiv](https://arxiv.org/abs/2205.13723) |
 | 2025 | PASS: Test-Time Prompting to Adapt Styles and Semantic Shapes in Medical Image Segmentation | TTA | Prompt/PEFT Adaptation | Prior-Constrained Adaptation | [arXiv](https://arxiv.org/abs/2410.01573) |
 | 2022 | Continual Test-Time Domain Adaptation (CoTTA) | CTTA | Memory/Continual Stabilization | Augmentation/Invariance Consistency | [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Continual_Test-Time_Domain_Adaptation_CVPR_2022_paper.pdf) |
 | 2024 | Each Test Image Deserves A Specific Prompt: CTTA for 2D Medical Segmentation | CTTA | Prompt/PEFT Adaptation | Memory/Continual Stabilization | [arXiv](https://arxiv.org/pdf/2311.18363) |
@@ -50,7 +50,7 @@ For full paper lists, please use:
 ## Classification Rules (Summary)
 
 - Each paper must have exactly one `Core Method`.
-- Each paper can have zero or one `Secondary Method` (`NA` if not needed).
+- Each paper can have zero or one `Secondary Method` (`N/A` if not needed).
 - Use one consistent method label per paper across the repository.
 - Use venue publication year as `Year` whenever available (journal/conference year first).
 
@@ -68,7 +68,7 @@ For full paper lists, please use:
 
 - Pick the method that best represents the paper's main contribution.
 - If multiple strategies are used, choose the one that drives the core test-time update.
-- If useful, record one additional strategy as `Secondary Method`; otherwise use `NA`.
+- If useful, record one additional strategy as `Secondary Method`; otherwise use `N/A`.
 
 
 ## Contribution Template

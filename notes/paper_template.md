@@ -21,7 +21,7 @@
 
 ## Secondary Method
 
-- Optional: choose one auxiliary method from `docs/taxonomy.md` or use `NA`.
+- Optional: choose one auxiliary method from `docs/taxonomy.md` or use `N/A`.
 
 ## Strengths
 
