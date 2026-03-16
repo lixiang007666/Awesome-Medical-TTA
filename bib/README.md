@@ -12,3 +12,4 @@ Current contents:
 
 - `tta.bib`: current TTA papers from `docs/papers/tta.md`
 - `ctta.bib`: current CTTA papers from `docs/papers/ctta.md`
+- `misc.bib`: surveys/meta references from `docs/papers/surveys.md`

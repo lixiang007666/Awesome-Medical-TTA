@@ -8,6 +8,7 @@ This section only shows part of the list as preview.
 Full tables are maintained in:
 - `docs/papers/tta.md`
 - `docs/papers/ctta.md`
+- `docs/papers/surveys.md`
 Note: the preview is manually curated and may lag behind full tables.
 
 <table>
@@ -106,6 +107,7 @@ Note: the preview is manually curated and may lag behind full tables.
 - [`docs/taxonomy.md`](docs/taxonomy.md): Core method taxonomy and classification rules
 - [`docs/papers/tta.md`](docs/papers/tta.md): TTA paper table
 - [`docs/papers/ctta.md`](docs/papers/ctta.md): CTTA paper table
+- [`docs/papers/surveys.md`](docs/papers/surveys.md): survey/meta references
 - [`notes/paper_template.md`](notes/paper_template.md): per-paper note template
 - [`bib/README.md`](bib/README.md): bibliography storage conventions
 - [`assets/README.md`](assets/README.md): figures/tables asset conventions
@@ -119,13 +121,15 @@ Note: the preview is manually curated and may lag behind full tables.
 │   ├── taxonomy.md
 │   └── papers/
 │       ├── tta.md
-│       └── ctta.md
+│       ├── ctta.md
+│       └── surveys.md
 ├── notes/
 │   └── paper_template.md
 ├── bib/
 │   ├── README.md
 │   ├── tta.bib
-│   └── ctta.bib
+│   ├── ctta.bib
+│   └── misc.bib
 └── assets/
     └── README.md
 ```
@@ -168,3 +172,4 @@ Add paper note -> assign one `Core Method` -> optionally assign one `Secondary M
 
 - TTA papers: [`docs/papers/tta.md`](docs/papers/tta.md)
 - CTTA papers: [`docs/papers/ctta.md`](docs/papers/ctta.md)
+- Surveys/meta references: [`docs/papers/surveys.md`](docs/papers/surveys.md)
