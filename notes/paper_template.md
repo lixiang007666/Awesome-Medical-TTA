@@ -19,6 +19,10 @@
 
 - Choose exactly one from `docs/taxonomy.md`.
 
+## Secondary Method
+
+- Optional: choose one auxiliary method from `docs/taxonomy.md` or use `NA`.
+
 ## Strengths
 
 - Main advantages in robustness, efficiency, and practicality.
